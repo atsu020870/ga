@@ -20,7 +20,6 @@
         background-image: url(../img/fv.png);
         background-repeat: no-repeat;
         background-position: right bottom;
-        background-size: 45%;
       }
 
       #bg > img {
@@ -282,7 +281,7 @@
       font-weight: bold;
       margin: 5px 0;
     }
-
+   
     .faq{
       text-align: center;
       margin: 30px auto 40px auto;
