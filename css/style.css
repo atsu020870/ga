@@ -1,13 +1,10 @@
-  /* 画面幅が768px以上のとき */
   @media screen and (min-width: 768px) {
   
     /*================
-     PC用のスタイル 
+     PC 
     =================*/
-      /* 横幅設定 */
       body {
         max-width: 1000px;
-        min-width: 768px;
         margin: 20px auto 0;
       }
 
@@ -77,13 +74,13 @@
 
       #dan1{
         position: absolute;
-        left: 50px;
+        left: 40px;
       }
 
       #jo1{
         position: absolute;
-        top: 40px;
-        right: 30px;
+        top: 60px;
+        right: 40px;
       }
 
       #gutai > p{
@@ -94,7 +91,7 @@
 
       #tunagi{
         text-align: center;
-        font-size: 30px;
+        font-size: 35px;
         font-weight: bold;
         margin: 100px 0 100px 0;
       }
@@ -298,14 +295,469 @@
     padding: 20px 0;
   }  
 
-    }
+  #contact{
+    margin: 50px 20px;
+  }
+
+  #contact > h3{
+    margin-bottom: 20px;
+  }
+
+  #contact > form > div{
+    margin-bottom: 20px;
+  }
+
+  .contact-heading{
+    margin-bottom: 20px;
+  }
+  
+  .contact-label{
+    font-weight: bold;
+  }
+
+  .contact-span{
+    color: #ce2222;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  .contact-textbox{
+    height: 56px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #fafafa;
+    border-bottom-color:#707070;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    min-width: 300px;
+    width: 100%;
+  }
+
+  .contact-textarea{
+    height: 150px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #fafafa;
+    width: 100%;      
+  }
+
+  .radiobutton{
+    margin-bottom: 20px;
+  }
+
+  .radiobutton + label::after{
+    content: "\A";
+    white-space: pre;
+  }
+  }
+
+    
 
     /*====================
-     スマートフォン用のスタイル
-     =====================*/
+    sp 
+    =====================*/
      @media screen and (max-width: 767px) {
-       body{
-         min-width: 375px;
-         margin: 0px;
-       }
-    }    
+      #fv1{
+        position: relative;
+        padding-top: 10px;
+      }
+
+      #bg{
+        background-image: url(../img/fv.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 90%;
+        height: 240px;
+      }
+
+      #bg > img {
+        width: 80%;
+        height: auto;
+      }
+
+      #h2{
+        margin-left: 8px;
+        width: 80%;
+      }
+
+      .h21{
+        text-decoration-line: 10px;
+        background: linear-gradient(transparent 60%, #0000ffd1 50%);
+        width: 167px;
+        font-size: 15px;
+      }
+
+      .h22{
+        text-decoration-line: 20px;
+        background: linear-gradient(transparent 60%, #0000ffd1 50%);
+        width: 176px;
+        font-size: 10px;
+      }
+
+      .h23{
+        text-decoration-line: 20px;
+        background: linear-gradient(transparent 60%, #0000ffd1 50%);
+        width: 155px;
+        font-size: 15px;
+      }
+
+      #h2 > p{
+        font-size: 10px;
+      }
+
+      .ofa{
+        padding-bottom: 50px;
+        margin-top: -32px;
+      }
+
+      .ofa > p{
+        text-align: center;
+        line-height: 55px;
+        background-color: #FF0505;
+        color: #ffffff;
+        height: 50px;
+        font-weight: bold;
+        font-size: 24px;
+      }
+
+      .spcta{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      .spribon{
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      #nayami{
+        position: relative;
+        margin-top: -40px;
+      }
+
+      #dan1{
+        position: absolute;
+        left: 50px;
+        display: none;
+      }
+
+      #jo1{
+        position: absolute;
+        top: 40px;
+        right: 30px;
+        display: none;
+      }
+
+      #gutai > p{
+        text-align: center;
+        font-size: 13px;
+        padding-top: 10px;
+      }
+
+      #tunagi{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 30px 5px;
+      }
+
+      .osusume1{
+        position: relative;
+        margin: 0 5px;
+      }
+
+      .point{
+        font-size: 23px;
+        font-family: serif;
+        font-weight: bold;
+        margin-bottom: -40px;
+      }
+
+      .osusumetitle{
+        font-size: 29px;
+        font-family: serif;
+        font-weight: bold;
+        margin: 50px 0 0 0;
+        line-height: 44px;
+      }
+
+      .osusumetitle > span{
+        font-size: 50px;
+      }
+
+      #haikei{
+        background-color: rgb(186 184 184 / 18%);
+        width: 100%;
+        height: 90px;
+        position: absolute;
+        top: 52px;
+      }
+      
+      .osusumetext{
+        margin: 0 20px;
+      }
+
+      .osusumetext > h2{
+        font-size: 20px;
+        text-align: center;
+      }
+
+      .osusumetext > p{
+        font-size: 18px;
+      }
+
+      .osusumedansei{
+        margin: -10px 10px 0 30px;
+      }
+
+      .osusumejosei{
+        margin: -10px 10px 0 30px;
+      }
+
+      #course{
+        display: flex;
+        justify-content: center;
+      }
+
+    #otameshi{
+      height: 150px;
+      margin: 15px 0 0 0;
+      border: solid 1px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .course{
+      background-color: #4260FF;
+      height: 40px;
+    }
+
+    .course2{
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      line-height: 40px;
+    }
+
+    .price{
+      font-family: serif;
+      font-size: 60px;
+      text-align: center;
+      font-weight: bold;
+      margin: 15px;
+    }
+
+    .getugaku{
+      font-family: serif;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    #stund{
+      height: 150px;
+      margin: 20px 0 0 0;
+      border: solid 1px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .courses{
+      background-color: #FF772A;
+      height: 40px;
+    }
+
+    #sp-course{
+      width: 80%;
+    }
+
+    .tokuten{
+      font-family: serif;
+      font-size: 19px;
+      text-align: center;
+      font-weight: bold;
+      margin: 5px 0;
+    }
+
+    #premium{
+      height: 235px;
+      margin: 20px 0 30px 0;
+      border: solid 1px;
+      border-radius: 5px;
+    }
+
+    .coursep{
+      background-color: #FF1E10;
+      height: 40px;
+      text-align: center;
+    }
+
+    #prepo{
+      margin: 10px 5px 0 5px;
+    }
+    
+    .preprice{
+      font-family: serif;
+      font-size: 60px;
+      font-weight: bold;
+      margin: -20px 0;
+      text-align: center;
+    }
+
+    .pretokuten > span{
+      font-size: 15px;
+    }
+
+    .pretokuten{
+      font-family: serif;
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+      margin: 0 auto 5px auto;
+    }
+
+    .tyu{
+      font-family: serif;
+      font-size: 12px;
+      text-align: center;
+      font-weight: bold;
+      margin: 5px auto;
+    }
+   
+    .faq{
+      text-align: center;
+      margin: 30px auto 40px auto;
+  }
+
+    .faq2{
+      background-color: black;
+      text-decoration: none;
+      padding: 8px;
+      color: white;
+      font-weight: bold;
+  }
+
+  #copyright{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+  }  
+
+  #contact{
+    margin: 50px 20px;
+  }
+
+  #contact > h3{
+    margin-bottom: 20px;
+  }
+
+  #contact > form > div{
+    margin-bottom: 20px;
+  }
+
+  .contact-heading{
+    margin-bottom: 20px;
+  }
+  
+  .contact-label{
+    font-weight: bold;
+  }
+
+  .contact-span{
+    color: #ce2222;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  .contact-textbox{
+    height: 56px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #fafafa;
+    border-bottom-color:#707070;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    min-width: 300px;
+    width: 100%;
+  }
+
+  .contact-textarea{
+    height: 150px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #fafafa;
+    width: 100%;      
+  }
+
+  .radiobutton{
+    margin-bottom: 20px;
+  }
+
+  .radiobutton + label::after{
+    content: "\A";
+    white-space: pre;
+  }
+  
+  #contact{
+    margin: 50px 20px;
+  }
+
+  #contact > h3{
+    margin-bottom: 20px;
+  }
+
+  #contact > form > div{
+    margin-bottom: 20px;
+  }
+
+  .contact-heading{
+    margin-bottom: 20px;
+  }
+  
+  .contact-label{
+    font-weight: bold;
+  }
+
+  .contact-span{
+    color: #ce2222;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  .contact-textbox{
+    height: 56px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #fafafa;
+    border-bottom-color:#707070;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    min-width: 300px;
+    width: 100%;
+  }
+
+  .contact-textarea{
+    height: 150px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #fafafa;
+    width: 100%;      
+  }
+
+  .radiobutton{
+    margin-bottom: 20px;
+  }
+
+  .radiobutton + label::after{
+    content: "\A";
+    white-space: pre;
+  }
+}    
